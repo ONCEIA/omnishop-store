@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMNISHOP - Salud y Bienestar</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: white; border-bottom: 1px solid #eee; padding: 15px 0; position: sticky; top: 0; z-index: 100; }
+        header .container { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 24px; font-weight: bold; }
+        .logo span { color: #FF6B9D; }
+        .btn { background: #FF6B9D; color: white; padding: 10px 20px; border: none; border-radius: 25px; cursor: pointer; font-weight: bold; text-decoration: none; display: inline-block; transition: background 0.3s; }
+        .btn:hover { background: #e85a8a; }
+        .hero { padding: 100px 20px; background: linear-gradient(135deg, rgba(255,107,157,0.1) 0%, rgba(255,217,61,0.1) 100%); text-align: center; }
+        .hero h1 { font-size: 48px; margin-bottom: 20px; }
+        .hero h1 span { color: #FF6B9D; }
+        .hero p { font-size: 18px; color: #666; margin-bottom: 30px; }
+        .products { padding: 80px 20px; background: #f9f9f9; }
+        .products h2 { text-align: center; font-size: 36px; margin-bottom: 50px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .card { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        .card-img { width: 100%; height: 250px; background: linear-gradient(135deg, #FFE5F0 0%, #FFF9E6 100%); display: flex; align-items: center; justify-content: center; font-size: 50px; }
+        .card-body { padding: 20px; }
+        .card-body h3 { margin-bottom: 10px; }
+        .card-body p { color: #666; font-size: 14px; margin-bottom: 15px; }
+        .card-body a { color: #FF6B9D; text-decoration: none; font-weight: bold; }
+        footer { background: #333; color: white; text-align: center; padding: 40px 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><span>OMNISHOP</span></div>
+            <a href="https://wa.me/573000000000" class="btn">Pedir Ahora</a>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Tu cuerpo merece <span>lo mejor</span></h1>
+            <p>Productos naturales para tu bienestar integral</p>
+            <a href="https://wa.me/573000000000" class="btn">¡Lo quiero!</a>
+        </div>
+    </section>
+    
+    <section class="products">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-img">💇</div>
+                    <div class="card-body">
+                        <h3>Sérum Capilar</h3>
+                        <p>Crecimiento natural del cabello</p>
+                        <a href="https://wa.me/573000000000">Pedir →</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">💊</div>
+                    <div class="card-body">
+                        <h3>Aceite de Orégano</h3>
+                        <p>Equilibrio digestivo natural</p>
+                        <a href="https://wa.me/573000000000">Pedir →</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">✨</div>
+                    <div class="card-body">
+                        <h3>Colágeno Premium</h3>
+                        <p>Piel radiante y fuerte</p>
+                        <a href="https://wa.me/573000000000">Pedir →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>OMNISHOP - Tienda de Salud y Bienestar</p>
+    </footer>
+</body>
+</html>
